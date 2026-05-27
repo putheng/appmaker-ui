@@ -51,6 +51,6 @@ Path _dottedPathModifier(Path path) {
   return dashPath(
     path,
     dashArray: CircularIntervalList(const [0.5, 3.5]),
-    dashOffset: const DashOffset.absolute(0.5 * 3.5),
+    dashOffset: const DashOffset.absolute(0.3 * 3.5),
   );
 }
