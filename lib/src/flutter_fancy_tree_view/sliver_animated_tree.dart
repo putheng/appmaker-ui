@@ -437,7 +437,6 @@ class _SubtreeState<T extends Object> extends State<_Subtree<T>> {
   @override
   Widget build(BuildContext context) {
     return IgnorePointer(
-      ignoring: true,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.stretch,

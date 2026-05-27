@@ -22,7 +22,35 @@ linter:
   # producing the lint.
   rules:
     # avoid_print: false  # Uncomment to disable the `avoid_print` rule
+    prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+    # avoid_print: false  # Uncomment to disable the `avoid_print` rule
     # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+    
+    # Const-related
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_constructors_in_immutables: true
 
+    # Widget build performance
+    avoid_unnecessary_containers: true
+    avoid_redundant_argument_values: true
+    prefer_const_declarations: true
+    sized_box_for_whitespace: true
+    use_key_in_widget_constructors: true
+
+    # Memory and layout
+    avoid_types_on_closure_parameters: false  # Optional, readability
+    prefer_final_fields: true
+    prefer_final_locals: true
+    avoid_multiple_declarations_per_line: true
+
+    # Collection optimizations
+    unnecessary_lambdas: true
+    prefer_spread_collections: true
+    prefer_collection_literals: true
+
+    # Style (often leads to better performance indirectly)
+    use_rethrow_when_possible: true
+    avoid_init_to_null: true
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options

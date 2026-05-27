@@ -40,8 +40,6 @@ class _AppHome extends StatelessWidget {
           origin: 0.70,
           strokeCap: StrokeCap.round,
           pathModifier: _dottedPathModifier,
-          roundCorners: false,
-          connectBranches: false,
         ),
         child: const MinimalTreeView(),
       ),
